@@ -335,7 +335,7 @@ def startClient():
     req_data = construct_message(messageID, 15856584, data, serial_number=0, public_key=None, encryption_method=0, is_subpackage=False, total_packages=1, package_number=1)
     # send_message("127.0.0.1", 1234, req_data)
     req_data_location = handle_location(1100, 24.4, 34.5, 1100, 10, 'aaaaa', 10, 10, 24);
-    send_message("127.0.0.1", 1234, req_data_location);
+    send_message("127.0.0.1", 5053, req_data_location);
 
 
 startClient()
